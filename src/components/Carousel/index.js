@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Hidden, Visible } from 'react-grid-system';
 import Slide from '../Slide'
+import Thumbnails from '../Thumbnails';
 import './index.scss'
 
 
@@ -39,9 +40,9 @@ export default class Carousel extends Component {
     render() {
         let image = this.props.images[this.state.activeIndex]
         return (
-
+            
             <Container fluid={true} className="carousel-container">
-
+                <Thumbnails images={this.props.images} onClickHandler={this.setCurrentImageIndex} />
                 <Row justify="center">
                     <Col xs={12} sm={12} lg={10} md={10}>
 

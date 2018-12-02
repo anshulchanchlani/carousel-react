@@ -1,0 +1,17 @@
+.thumbnails{
+    text-align:center;
+}
+
+.thumbnails-list{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-bottom:0px;
+}
+
+.thumbnails-item{
+    cursor:pointer;
+}
+
