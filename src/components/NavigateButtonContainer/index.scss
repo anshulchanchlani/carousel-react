@@ -1,0 +1,27 @@
+@import '../../utilities/variables';
+.desktop-navigate-buttons{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    padding-left:0px;
+    margin-top:0px;
+
+}
+.button-navigate>button{
+    background-color:$app-color;
+    color:white;
+    border-left-style: round;
+    width:100px;
+    height:25px;
+
+}
+
+.border-prev-button>button{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius:10px;
+}
+
+.border-next-button>button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+}

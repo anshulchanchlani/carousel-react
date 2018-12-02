@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Hidden, Visible } from 'react-grid-system';
 import Slide from '../Slide'
 import Thumbnails from '../Thumbnails';
+import NavigateButtonContainer from '../NavigateButtonContainer'
 import './index.scss'
 
 
@@ -35,12 +36,12 @@ export default class Carousel extends Component {
         if (index !== 'undefined' && index >= 0) {
             this.setState({ activeIndex: index })
         }
- 
+
     }
     render() {
         let image = this.props.images[this.state.activeIndex]
         return (
-            
+
             <Container fluid={true} className="carousel-container">
                 <Thumbnails images={this.props.images} onClickHandler={this.setCurrentImageIndex} />
                 <Row justify="center">
@@ -58,13 +59,10 @@ export default class Carousel extends Component {
                                     index={this.state.activeIndex}
                                     onClickHandler={this.setCurrentImageIndex}
                                 />
-
-
                                 <h3>By {image.user}</h3>
                             </li>
-
                         </ul>
-
+                        <NavigateButtonContainer prevImage={this.prevImage} nextImage={this.nextImage} />
                     </Col>
                 </Row>
             </Container>
