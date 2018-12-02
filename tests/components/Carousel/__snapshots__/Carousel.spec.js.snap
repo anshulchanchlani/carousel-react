@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel Tests Carousel renders 1`] = `
+<Container
+  className="carousel-container"
+  component="div"
+  fluid={true}
+  lg={false}
+  md={false}
+  sm={false}
+  style={Object {}}
+  xl={false}
+  xs={false}
+>
+  <Thumbnails
+    images={
+      Array [
+        Object {
+          "comments": 48,
+          "downloads": 2866,
+          "favorites": 14,
+          "id": 3841703,
+          "imageHeight": 3271,
+          "imageSize": 3944579,
+          "imageWidth": 4900,
+          "largeImageURL": "https://pixabay.com/get/ea3db50e2ff4023ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_1280.jpg",
+          "likes": 50,
+          "pageURL": "https://pixabay.com/en/leaf-water-surface-floating-3841703/",
+          "previewHeight": 100,
+          "previewURL": "https://cdn.pixabay.com/photo/2018/11/27/15/53/leaf-3841703_150.jpg",
+          "previewWidth": 150,
+          "tags": "leaf, water, surface",
+          "type": "photo",
+          "user": "MabelAmber",
+          "userImageURL": "https://cdn.pixabay.com/user/2018/11/02/20-20-42-202_250x250.jpg",
+          "user_id": 1377835,
+          "views": 3354,
+          "webformatHeight": 427,
+          "webformatURL": "https://pixabay.com/get/ea3db50e2ff4023ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_640.jpg",
+          "webformatWidth": 640,
+        },
+        Object {
+          "comments": 42,
+          "downloads": 3326,
+          "favorites": 16,
+          "id": 3842408,
+          "imageHeight": 3246,
+          "imageSize": 2244944,
+          "imageWidth": 3246,
+          "largeImageURL": "https://pixabay.com/get/ea3db50d2cf4093ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_1280.jpg",
+          "likes": 48,
+          "pageURL": "https://pixabay.com/en/cat-animal-mammal-feline-portrait-3842408/",
+          "previewHeight": 150,
+          "previewURL": "https://cdn.pixabay.com/photo/2018/11/27/21/21/cat-3842408_150.jpg",
+          "previewWidth": 150,
+          "tags": "cat, animal, mammal",
+          "type": "photo",
+          "user": "MabelAmber",
+          "userImageURL": "https://cdn.pixabay.com/user/2018/11/02/20-20-42-202_250x250.jpg",
+          "user_id": 1377835,
+          "views": 3850,
+          "webformatHeight": 640,
+          "webformatURL": "https://pixabay.com/get/ea3db50d2cf4093ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_640.jpg",
+          "webformatWidth": 640,
+        },
+        Object {
+          "comments": 49,
+          "downloads": 9293,
+          "favorites": 24,
+          "id": 3834860,
+          "imageHeight": 3264,
+          "imageSize": 4104892,
+          "imageWidth": 4896,
+          "largeImageURL": "https://pixabay.com/get/ea3db20b20f2013ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_1280.jpg",
+          "likes": 78,
+          "pageURL": "https://pixabay.com/en/christmas-motif-building-3834860/",
+          "previewHeight": 99,
+          "previewURL": "https://cdn.pixabay.com/photo/2018/11/24/01/35/christmas-motif-3834860_150.jpg",
+          "previewWidth": 150,
+          "tags": "christmas motif, building, fachwerkhäuser",
+          "type": "photo",
+          "user": "Couleur",
+          "userImageURL": "https://cdn.pixabay.com/user/2018/09/29/00-20-33-645_250x250.jpg",
+          "user_id": 1195798,
+          "views": 11839,
+          "webformatHeight": 426,
+          "webformatURL": "https://pixabay.com/get/ea3db20b20f2013ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_640.jpg",
+          "webformatWidth": 640,
+        },
+        Object {
+          "comments": 35,
+          "downloads": 1118,
+          "favorites": 6,
+          "id": 3816193,
+          "imageHeight": 2671,
+          "imageSize": 2660531,
+          "imageWidth": 4000,
+          "largeImageURL": "https://pixabay.com/get/ea3db00929fd023ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_1280.jpg",
+          "likes": 44,
+          "pageURL": "https://pixabay.com/en/hedgehog-spur-hannah-foraging-3816193/",
+          "previewHeight": 100,
+          "previewURL": "https://cdn.pixabay.com/photo/2018/11/14/22/12/hedgehog-3816193_150.jpg",
+          "previewWidth": 150,
+          "tags": "hedgehog, spur, hannah",
+          "type": "photo",
+          "user": "Capri23auto",
+          "userImageURL": "https://cdn.pixabay.com/user/2018/05/16/20-25-22-995_250x250.jpg",
+          "user_id": 1767157,
+          "views": 1289,
+          "webformatHeight": 427,
+          "webformatURL": "https://pixabay.com/get/ea3db00929fd023ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_640.jpg",
+          "webformatWidth": 640,
+        },
+        Object {
+          "comments": 38,
+          "downloads": 1760,
+          "favorites": 13,
+          "id": 3841692,
+          "imageHeight": 3271,
+          "imageSize": 4020542,
+          "imageWidth": 4900,
+          "largeImageURL": "https://pixabay.com/get/ea3db50e2efd033ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_1280.jpg",
+          "likes": 39,
+          "pageURL": "https://pixabay.com/en/leaf-vein-pattern-twig-bush-3841692/",
+          "previewHeight": 100,
+          "previewURL": "https://cdn.pixabay.com/photo/2018/11/27/15/51/leaf-3841692_150.jpg",
+          "previewWidth": 150,
+          "tags": "leaf, vein, pattern",
+          "type": "photo",
+          "user": "MabelAmber",
+          "userImageURL": "https://cdn.pixabay.com/user/2018/11/02/20-20-42-202_250x250.jpg",
+          "user_id": 1377835,
+          "views": 2038,
+          "webformatHeight": 427,
+          "webformatURL": "https://pixabay.com/get/ea3db50e2efd033ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_640.jpg",
+          "webformatWidth": 640,
+        },
+        Object {
+          "comments": 34,
+          "downloads": 1009,
+          "favorites": 11,
+          "id": 3840264,
+          "imageHeight": 3387,
+          "imageSize": 4846269,
+          "imageWidth": 5353,
+          "largeImageURL": "https://pixabay.com/get/ea3db50f2af2053ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_1280.jpg",
+          "likes": 43,
+          "pageURL": "https://pixabay.com/en/christmas-angel-hope-3840264/",
+          "previewHeight": 94,
+          "previewURL": "https://cdn.pixabay.com/photo/2018/11/26/21/07/christmas-3840264_150.jpg",
+          "previewWidth": 150,
+          "tags": "christmas, angel, hope",
+          "type": "photo",
+          "user": "KleineKiwi",
+          "userImageURL": "https://cdn.pixabay.com/user/2018/11/14/09-23-35-829_250x250.jpg",
+          "user_id": 9883074,
+          "views": 1392,
+          "webformatHeight": 404,
+          "webformatURL": "https://pixabay.com/get/ea3db50f2af2053ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_640.jpg",
+          "webformatWidth": 640,
+        },
+      ]
+    }
+    onClickHandler={[Function]}
+  />
+  <Row
+    align="normal"
+    component="div"
+    debug={false}
+    justify="center"
+    nogutter={false}
+    style={Object {}}
+  >
+    <Col
+      component="div"
+      debug={false}
+      lg={10}
+      md={10}
+      offset={Object {}}
+      pull={Object {}}
+      push={Object {}}
+      sm={12}
+      style={Object {}}
+      xl={null}
+      xs={12}
+    >
+      <ul
+        className="carousel"
+      >
+        <li
+          className="center-slide"
+        >
+          <Visible
+            lg={false}
+            md={true}
+            sm={true}
+            xl={false}
+            xs={true}
+          >
+            <LeftArrow
+              prevImage={[Function]}
+            />
+          </Visible>
+          <Slide
+            height="480px"
+            id="contentCarousel"
+            image={
+              Object {
+                "comments": 48,
+                "downloads": 2866,
+                "favorites": 14,
+                "id": 3841703,
+                "imageHeight": 3271,
+                "imageSize": 3944579,
+                "imageWidth": 4900,
+                "largeImageURL": "https://pixabay.com/get/ea3db50e2ff4023ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_1280.jpg",
+                "likes": 50,
+                "pageURL": "https://pixabay.com/en/leaf-water-surface-floating-3841703/",
+                "previewHeight": 100,
+                "previewURL": "https://cdn.pixabay.com/photo/2018/11/27/15/53/leaf-3841703_150.jpg",
+                "previewWidth": 150,
+                "tags": "leaf, water, surface",
+                "type": "photo",
+                "user": "MabelAmber",
+                "userImageURL": "https://cdn.pixabay.com/user/2018/11/02/20-20-42-202_250x250.jpg",
+                "user_id": 1377835,
+                "views": 3354,
+                "webformatHeight": 427,
+                "webformatURL": "https://pixabay.com/get/ea3db50e2ff4023ed1584d05fb1d4f90e671e2d31cac104491f3c77eaeefb0b0_640.jpg",
+                "webformatWidth": 640,
+              }
+            }
+            index={0}
+            onClickHandler={[Function]}
+            width="100%"
+          />
+          <Visible
+            lg={false}
+            md={true}
+            sm={true}
+            xl={false}
+            xs={true}
+          >
+            <RightArrow
+              nextImage={[Function]}
+            />
+          </Visible>
+          <h3>
+            By 
+            MabelAmber
+          </h3>
+        </li>
+      </ul>
+      <NavigateButtonContainer
+        nextImage={[Function]}
+        prevImage={[Function]}
+      />
+    </Col>
+  </Row>
+</Container>
+`;
