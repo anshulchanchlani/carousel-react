@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "webpack-dev-server --mode development --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js"
+    "start:dev": "webpack-dev-server --mode development --config webpack.dev.js --open",
+    "start:prod": "npm run build && node ./src/server.js",
+    "build": "webpack --config webpack.prod.js --mode production"
   },
   "keywords": [
     "carousel"
@@ -20,6 +21,7 @@
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "enzyme-to-json": "^3.3.4",
+    "express": "^4.16.4",
     "identity-obj-proxy": "^3.0.0",
     "jest-mock-axios": "^2.1.11",
     "react": "^16.6.3",

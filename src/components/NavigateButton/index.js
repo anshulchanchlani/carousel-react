@@ -5,7 +5,7 @@ class NavigateButton extends Component {
     render() {
         let {buttonText,onClickHandler} = this.props;
         return (
-                <button onClick={onClickHandler} >{buttonText}</button>
+                <button name={buttonText} onClick={onClickHandler} >{buttonText}</button>
         );
     }
 }
