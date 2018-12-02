@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import {Visible} from 'react-grid-system'
 class Slide extends Component {
     constructor(props) {
         super(props);
@@ -10,7 +11,12 @@ class Slide extends Component {
   
         return (
             <Fragment>
+                <Visible md lg xl>
                 <img width={width} alt={alt} onClick={() => this.props.onClickHandler(index)} height={height} src={image.webformatURL} />
+                </Visible>
+                <Visible xs sm>
+                <img width={width} alt={alt} onClick={() => this.props.onClickHandler(index)} src={image.webformatURL} />
+                </Visible>
             </Fragment>
         );
     }
