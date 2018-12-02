@@ -3,6 +3,8 @@ import { Container, Row, Col, Hidden, Visible } from 'react-grid-system';
 import Slide from '../Slide'
 import Thumbnails from '../Thumbnails';
 import NavigateButtonContainer from '../NavigateButtonContainer'
+import RightArrow from '../RightArrow'
+import LeftArrow from '../LeftArrow'
 import './index.scss'
 
 
@@ -50,15 +52,19 @@ export default class Carousel extends Component {
                         <ul className="carousel">
 
                             <li className="center-slide">
-
-
-                                <Slide id="contentCarousel"
+                            <Visible xs sm md>
+                                    <LeftArrow prevImage={this.prevImage} />
+                                </Visible>
+                              <Slide id="contentCarousel"
                                     image={image}
                                     width="100%"
                                     height="480px"
                                     index={this.state.activeIndex}
                                     onClickHandler={this.setCurrentImageIndex}
                                 />
+                                <Visible xs sm md>
+                                    <RightArrow nextImage={this.nextImage} />
+                                </Visible>
                                 <h3>By {image.user}</h3>
                             </li>
                         </ul>
