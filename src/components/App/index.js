@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component,Fragment } from 'react';
 import Header from '../Header'
+import Carousel from '../Carousel'
 import { getImages } from '../../services/api';
 import './index.scss'
 class App extends Component {
@@ -19,7 +20,10 @@ class App extends Component {
     render() {
         let images = this.state.images;
         return (
-           images && images.length>=1 ? <Header />:<h3>Loading...</h3>
+            <Fragment>
+                <Header />
+                {images && images.length > 0 && <Carousel images={this.state.images} />}
+            </Fragment>
         );
     }
 }

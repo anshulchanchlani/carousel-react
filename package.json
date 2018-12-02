@@ -16,6 +16,7 @@
     "copy-webpack-plugin": "^4.6.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-grid-system": "^4.3.1",
     "webpack-dev-server": "^3.1.10"
   },
   "devDependencies": {
